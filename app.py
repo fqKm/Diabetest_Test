@@ -20,4 +20,4 @@ def predict():
     return render_template('index.html', prediction=result, probabilities=probability_dictionary, data=input_data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
